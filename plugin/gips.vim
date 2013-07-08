@@ -22,6 +22,12 @@ nnoremap <Down>  :call gips#Gips()<CR>
 nnoremap <Left>  :call gips#Gips()<CR>
 nnoremap <Right> :call gips#Gips()<CR>
 
+" added insert mode
+inoremap <Up>    :call gips#Gips()<CR>
+inoremap <Down>  :call gips#Gips()<CR>
+inoremap <Left>  :call gips#Gips()<CR>
+inoremap <Right> :call gips#Gips()<CR>
+
 " Inteference enable or not
 if exists("g:gips_interference_least_expected")
   call gips#interference()
