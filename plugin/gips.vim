@@ -25,7 +25,7 @@ nnoremap <Right> :call gips#Gips()<CR>
 " added insert mode
 inoremap <Up>    俺はカーソルキーを捨てた身だ・・・
 inoremap <Down>  なんど言ったらわかるのだ、hjkl以外は悪だと・・・
-inoremap <Left>  VimShellで困ることは知っている、これは試練なんだ・・・
+" inoremap <Left>  日本語環境だと誤動作するのつらい・・・
 inoremap <Right> 後悔したか、これがVimの性というものだ・・・
 
 " Inteference enable or not
